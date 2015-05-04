@@ -64,7 +64,7 @@ addEventListener("keyup", function (e) {
      delete keysDown[e.keyCode];
 }, false);
 
-// Reset the game when the player catches a monster
+// Reset the Game when the player catches a monster
 
 
 var reset = function () {
@@ -80,7 +80,7 @@ var reset = function () {
 
 };
 
-// Update game objects
+// Update Game objects
 
 
 var update = function (modifier) {
@@ -143,7 +143,7 @@ var render = function () {
      ctx.fillText("Goblins caught: " + monstersCaught, 32, 32);
 };
 
-// The main game loop
+// The main Game loop
 
 var main = function () {
      var now = Date.now();
@@ -163,7 +163,7 @@ var main = function () {
 var w = window;
 requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame || w.msRequestAnimationFrame || w.mozRequestAnimationFrame;
 
-// Let's play this game!
+// Let's play this Game!
 
 var then = Date.now();
 reset();
