@@ -41,7 +41,7 @@ monsterImage.onload = function () {
 
 monsterImage.src = "images/monster.png";
 
-// game objects
+// Game objects
 
 
 var hero = {
